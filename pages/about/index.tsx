@@ -1,9 +1,13 @@
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
 const Index = () => {
   return (
     <div className=" flex flex-col justify-center items-center font-domine tracking-widest text-[#8B6A2F] ">
+      <Head>
+        <title>Mazuya | About</title>
+      </Head>
       <div className="mb-10">
         <div className="max-w-[80%] lg:max-w-[60%] mx-auto flex lg:flex-row flex-col items-center justify-center">
           <div className="flex lg:flex-row flex-col gap-5">
@@ -33,7 +37,7 @@ const Index = () => {
                   </section>
                   <p>
                     รอบคิวปกติ: พิมพ์ใต้คอมเม้นต์จอง
-                    <span className="font-medium">'จอง', 'จ', 'f'</span>
+                    <span className="font-medium">จอง, จ, f</span>
                     <br></br>นอกรอบ: ส่งบรีฟมาประเมินราคา
                   </p>
                 </li>

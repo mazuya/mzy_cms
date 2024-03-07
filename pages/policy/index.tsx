@@ -1,9 +1,13 @@
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
 const Index = () => {
   return (
     <div className=" flex flex-col justify-center items-center font-domine tracking-widest text-[#8B6A2F] ">
+      <Head>
+        <title>Mazuya | Policy</title>
+      </Head>
       <div className="tracking-[0.1.5rem]  w-[90%] lg:w-[ุ80%] mb-20  flex flex-col items-center">
         <h1 className="mt-10 text-2xl lg:text-3xl text-center ">
           Commission Policy
@@ -33,7 +37,7 @@ const Index = () => {
               สามารถแจ้งได้ค่ะ
             </li>
             <li>
-              - ขอความร่วมมือใส่ชื่อนักวาด "Mazuya" เมื่อเผยแพร่ผลงาน,
+              - ขอความร่วมมือใส่ชื่อนักวาด Mazuya เมื่อเผยแพร่ผลงาน,
               ไม่แอบอ้างผลงานเป็นของตนเอง, ไม่ดัดแปลงผลงาน
             </li>
             <li>
@@ -73,7 +77,7 @@ const Index = () => {
             <li>
               - ไม่อนุญาตให้เปลี่ยนแปลงดีไซน์เกิน 50% เช่น
               กรณีที่น้องถอดเสื้อคลุม หรือ เป็นชุดลำลองทั่วไป
-              อันนี้สามารถทำได้ค่ะ{" "}
+              อันนี้สามารถทำได้ค่ะ
             </li>
             <li>
               - สามารถนำไปคอมมิชชันได้ตามสะดวกค่ะ

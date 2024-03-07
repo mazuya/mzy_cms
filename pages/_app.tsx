@@ -17,10 +17,9 @@ const queryClient = new QueryClient({
   },
 });
 export default function App({ Component, pageProps }: AppProps) {
-  const [nav, setNav] = useState(false);
   return (
     <QueryClientProvider client={queryClient}>
-      <Navbar nav={nav} setNav={setNav} />
+      <Navbar />
       <Component {...pageProps} />
     </QueryClientProvider>
   );
